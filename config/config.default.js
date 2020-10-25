@@ -8,6 +8,7 @@ module.exports = (appInfo) => {
    * built-in config
    * @type {Egg.EggAppConfig}
    * */
+  // eslint-disable-next-line no-multi-assign
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
